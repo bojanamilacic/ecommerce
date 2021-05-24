@@ -1,3 +1,24 @@
 body{
     background: rgb(167, 184, 174);
 }
+
+.sourceSansPro { 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 300;
+}
+.sourceSansPro14 { 
+    font-family: 'Source Sans Pro', sans-serif; font-size: 14px; 
+    font-weight: 300; 
+}
+.sourceSansPro16 { 
+    font-family: 'Source Sans Pro', sans-serif; font-size: 16px; 
+    font-weight: 300; 
+}
+.sourceSansPro17 { 
+    font-family: 'Source Sans Pro', sans-serif; font-size: 17px; 
+    font-weight: 300; 
+}
+.sourceSansPro18 { 
+    font-family: 'Source Sans Pro', sans-serif; font-size: 18px; 
+    font-weight: 300;
+}
