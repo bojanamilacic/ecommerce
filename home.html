@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container px-0 bg-white">
+    <div class="container px-0 bg-white" style="max-width: 1024px;">
         <!-- Prvi red stranice sa navbarom -->
         <div class="container-fluid px-md-2">
             <!-- Navbar -->
@@ -28,11 +28,11 @@
                 <!-- Search Box -->
                 <div class="input-group pl-sm-3 pt-0" style="width: 310px;">
                     <span class="input-group-append" style="height: 31px;">
-                        <button class="btn btn-white bg-white pl-1 pt-1 pr-2 text-secondary border-right-0 border border-secondary" type="button" style="height: 31px;">
+                        <button class="btn btn-white bg-white pl-1 pt-1 pr-2 text-secondary border-end-0 border border-secondary rounded-0" type="button" style="height: 31px;">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </button>
                     </span>
-                    <input class="form-control pl-0 shadow-none sourceSansPro14 text-secondary py-2 border-left-0 rounded-0 border border-secondary" type="search" placeholder="Search..." id="search-input" style="height: 31px;">
+                    <input class="form-control pl-0 shadow-none sourceSansPro14 text-secondary py-2 border-start-0 rounded-0 border border-secondary" type="search" placeholder="Search..." id="search-input" style="height: 31px;">
                 </div>
                 <!-- Collapse Button -->
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
@@ -166,12 +166,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <button class="carousel-control-prev pl-lg-0 pr-sm-4 pr-lg-5 pl-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="fa fa-caret-left fa-3x text-secondary pr-md-5 pr-lg-3 pb-5 mb-4" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <button class="carousel-control-next pr-lg-0 pl-sm-4 pl-lg-5 pr-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="fa fa-caret-right fa-3x text-secondary pl-md-5 pl-lg-3 pb-5 mb-4t" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
