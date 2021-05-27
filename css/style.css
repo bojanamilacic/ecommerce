@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
 body {
     background: rgb(167, 184, 174);
 }
 .navbar-brand img {
     width: 45px;
     height: 35px;
+}
+.form-control {
+    width: 299px;
+    height: 30px;
+}
+.btnsize {
+    width: 30px;
+    height: 30px;
+}
+.shopNow {
+    width: 162px;
+}
+.footerPadd
+{
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+.lato16{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.footerHr {
+    width: 108px;
+}
+.inputHeight {
+    height: 38px;
 }
