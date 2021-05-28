@@ -34,6 +34,10 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
 }
+.lato12{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
 .footerHr {
     width: 108px;
 }
@@ -43,7 +47,7 @@ body {
 .rating {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center
+    justify-content: start;
 }
 
 .rating>input {
@@ -75,4 +79,14 @@ body {
 
 .rating:hover>input:checked~label:before {
     opacity: 0.4
+}
+.headerColor{
+    background-color: rgba(235,235,235, 0.9);
+}
+.btnShopSize {
+    height: 54px;
+}
+.shopSearch{
+    background-color: rgba(235,235,235, 0.9);
+    height: 54px;
 }
